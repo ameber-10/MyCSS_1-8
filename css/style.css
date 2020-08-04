@@ -1,0 +1,39 @@
+body{
+  color: skyblue;
+
+  /* 文字の大きさ */
+  /* font-size: 12px; */
+
+  /* 境界線を追加 */
+  border:1px solid pink;
+}
+
+h1{
+  /* h1にも線が入る */
+  /* border: inherit; */
+
+  color: red;
+  font-size: 48px;
+
+  /* 中央ぞろえ */
+  text-align: center;
+  
+  /* 細字 */
+  font-weight: normal;
+
+  /* 打消し線を追加 */
+  text-decoration: line-through;
+}
+
+p{
+  /* 太字 */
+  font-weight: bold;
+
+  /* 下線を追加 */
+  text-decoration: underline;
+}
+
+a{
+  /* 下線を消す */
+  text-decoration: none;
+}
